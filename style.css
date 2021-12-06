@@ -1,0 +1,85 @@
+.corpo{
+  background-image: url(/images/fundo.png);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;  
+  min-height: 100vh; 
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  z-index: 10;
+  position: absolute;
+  float: left;
+  top: 80px;
+  right: 0;
+}
+.input{
+  width: 260px;
+  height: 50px;
+  border-radius: 0%;
+  margin-left: 10px;
+  box-shadow: none !important;
+}
+.button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: black;
+  width: 530px;
+  height: 64px;
+  font-weight: bold;
+  
+}
+.politica{
+  font-size: 12px;
+  margin-bottom: 35px;
+  text-align: left;
+}
+.dados{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.lancamento{
+  margin-top: 26px;
+  font-size: 16px;
+  margin-bottom: 29px;
+  color: white;
+}
+.lenovo{
+  font-size: 46px;
+  color: #3E8DDD;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.experiencia{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: white;
+}
+.arquivos{
+  font-size: 16px;
+  color: white;
+}
+.v14{
+  font-size: 16px;
+  color: white;
+}
+.cotacao{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.check{
+  margin-top: 26px;
+  margin-left: 10px;
+}
+form .form-control:focus{
+  border-color: #C7C7C7;
+  box-shadow: none;
+}
