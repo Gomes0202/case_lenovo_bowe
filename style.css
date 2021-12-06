@@ -75,10 +75,9 @@
   color: white;
 }
 .check{
-  margin-top: 26px;
-  margin-left: 5px;
+  margin-top: 15px;
+  margin-bottom: -25px;
   align-items: center;
-
 }
 form .form-control:focus{
   border-color: #C7C7C7;

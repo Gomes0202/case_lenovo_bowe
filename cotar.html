@@ -38,43 +38,47 @@
       <div class="col bg-white text-center">
         <p class="dados">Preencha seus dados e nos envie.<br />Em breve, entraremos em contato.</p>
         <p>Ou ligue para <b>0800 536 6861</b> e fale com nossos consultores.</p>
-        <form action="..." method="POST">
-          <div class="form-row">
-            <div class="input">
-              <label for="inputcategoria"></label>
-              <select id="inputcategoria" required class="form-control">
-                <option selected>Categoria de produto</option>
-                <option>...</option>
-              </select>
+        <form action="cotar.html">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-6 ">
+                <label for="inputcategoria"></label>
+                <select id="inputcategoria" required class="form-control">
+                  <option selected>Categoria de produto</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 ">
+                <label for="inputempresa"></label>
+                <select id="inputempresa" required class="form-control">
+                  <option selected>Empresa</option>
+                  <option>...</option>
+                </select>
+              </div>
             </div>
-            <div class="input">
-              <label for="inputempresa"></label>
-              <select id="inputempresa" required class="form-control">
-                <option selected>Empresa</option>
-                <option>...</option>
-              </select>
-            </div>
-            <div class="input">
-              <label for="inputmotivo"></label>
-              <select id="inputmotivo" required class="form-control">
-                <option selected>Motivo de Contato</option>
-                <option>...</option>
-              </select>
-            </div>
-            <div class="input">
-              <label for="inputestado"></label>
-              <select id="inputestado" required class="form-control">
-                <option selected>Estado</option>
-                <option>...</option>
-              </select>
-            </div>
-            <div class=" row col-sm-12 col-8 check">
-              <input type="checkbox" id="confirmo" name="confirmo">
-              <label for="confirmo"> Confirmo ter aceitado receber comunicações da Lenovo.*</label>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-6 ">
+                <label for="inputmotivocontato"></label>
+                <select id="inputmotivocontato" required class="form-control">
+                  <option selected>Motivo de contato</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 ">
+                <label for="inputestado" required></label>
+                <select id="inputestado" class="form-control">
+                  <option selected>Estado</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-xs-12 col-sm-12 check">
+                <input type="checkbox" id="confirmo" name="confirmo">
+                <label for="confirmo"> Confirmo ter aceitado receber comunicações da Lenovo.*</label>
+              </div>
             </div>
           </div>
-
-          <button type="submit" class="col-12 col-md-12 button btn btn-dark ">ENVIAR</button>
+          <button type="submit" class="col-12 col-md-12 button btn btn-dark ">QUERO COTAR</button>
         </form>
         <p class="politica">*Estes dados podem ser armazenados em um servidor internacional pela Lenovo ou em
           nome da Lenovo, permitindo ser revogada a permissão a qualquer momento. Lenovo pode

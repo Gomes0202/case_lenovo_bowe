@@ -39,36 +39,44 @@
         <p class="dados">Preencha seus dados e nos envie.<br />Em breve, entraremos em contato.</p>
         <p>Ou ligue para <b>0800 536 6861</b> e fale com nossos consultores.</p>
         <form action="cotar.html">
-          <div class="form-row">
-            <div class="input">
-              <label for="inputname"></label>
-              <input type="fname" class="form-control " id="inputname" required placeholder="Nome Completo">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-6">
+                <label for="inputname"></label>
+                <input type="fname" class="form-control " id="inputname" required placeholder="Nome Completo">
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 ">
+                <label for="inputcnpj"></label>
+                <input type="text" class="form-control" id="inputcnpj" required placeholder="CNPJ">
+              </div>
             </div>
-            <div class="input">
-              <label for="inputcnpj"></label>
-              <input type="text" class="form-control" id="inputcnpj" required placeholder="CNPJ">
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-6 ">
+                <label for="inputemail"></label>
+                <input type="email" class="form-control" id="inputemail" required placeholder="E-mail">
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 ">
+                <label for="inputtelefone"></label>
+                <input type="tel" class="form-control" id="inputtelefone" required placeholder="Telefone">
+              </div>
             </div>
-            <div class="input">
-              <label for="inputemail"></label>
-              <input type="email" class="form-control" id="inputemail" required placeholder="E-mail">
-            </div>
-            <div class="input">
-              <label for="inputtelefone"></label>
-              <input type="tel" class="form-control" id="inputtelefone" required placeholder="Telefone">
-            </div>
-            <div class="input">
-              <label for="inputfuncionarios"></label>
-              <select id="inputfuncionarios" required class="form-control">
-                <option selected>Nº de funcionários</option>
-                <option>...</option>
-              </select>
-            </div>
-            <div class="input">
-              <label for="inputcargo" required></label>
-              <select id="inputcargo" class="form-control">
-                <option selected>Cargo</option>
-                <option>...</option>
-              </select>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-6 ">
+                <label for="inputfuncionarios"></label>
+                <select id="inputfuncionarios" required class="form-control">
+                  <option selected>Nº de funcionários</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 ">
+                <label for="inputcargo" required></label>
+                <select id="inputcargo" class="form-control">
+                  <option selected>Cargo</option>
+                  <option>...</option>
+                </select>
+              </div>
             </div>
           </div>
           <button type="submit" class="col-12 col-md-12 button btn btn-dark ">ENVIAR</button>
