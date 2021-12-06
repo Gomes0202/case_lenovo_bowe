@@ -32,7 +32,6 @@
   width: 530px;
   height: 64px;
   font-weight: bold;
-  
 }
 .politica{
   font-size: 12px;
@@ -77,7 +76,9 @@
 }
 .check{
   margin-top: 26px;
-  margin-left: 10px;
+  margin-left: 5px;
+  align-items: center;
+
 }
 form .form-control:focus{
   border-color: #C7C7C7;
